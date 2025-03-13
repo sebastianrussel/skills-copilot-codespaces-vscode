@@ -72,4 +72,4 @@ io.sockets.on('connection', function (socket) {
         //create insert
         connection.query('INSERT INTO comments (comment) VALUES(?)', data, function (err, res) {
             if (err) throw err;
-            //create emit
+    
